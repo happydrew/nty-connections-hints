@@ -1,0 +1,23 @@
+---
+title: Nyt Connections Hints
+description: This page is daily-update for NYT Connections hints, answers and help with AI-powered clues. Play unlimited mode, access all historical NYT Connections archive.
+date: 2024-06-30
+---
+
+import HintsPage from '@components/nytconnectionshints/HintsPage'
+import { getLatestGameInfo } from '@lib/data';
+
+export async function getStaticProps() {
+    const latestGameInfo = await getLatestGameInfo();
+    return {
+        props: {
+            game_date: latestGameInfo.game_date,
+            game_number: latestGameInfo.game_number,
+            game_author: latestGameInfo.game_author,
+            game_data: JSON.stringify(latestGameInfo.game_data),
+            hints: JSON.stringify(latestGameInfo.hints)
+        }
+    };
+}
+
+<HintsPage {...props} has_next={false} />

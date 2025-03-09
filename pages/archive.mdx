@@ -1,0 +1,19 @@
+---
+title: Nyt Connections Archive | all archive
+description: Archive of Nyt Connections
+date: 2024-06-30
+---
+
+import ArchivePage from '@components/nytconnectionshints/Archive'
+import { getArchiveData } from '@lib/data'
+
+export async function getStaticProps() {
+    const years = await getArchiveData();
+    return {
+        props: {
+            years
+        }
+    }
+}
+
+<ArchivePage {...props} />
