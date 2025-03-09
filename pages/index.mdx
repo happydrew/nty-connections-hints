@@ -1,6 +1,6 @@
 ---
-title: Nyt Connections Hints
-description: This page is daily-update for NYT Connections hints, answers and help with AI-powered clues. Play unlimited mode, access all historical NYT Connections archive.
+title: NYT Connections Hints Today, daily update, answers, unlimited mode, and more
+description: NYT Connections hints today for March 1, 2025, including categorized clues and answers. Play with unlimited mode or check the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, this page has a fixed URL, making it easy to access daily without searching.
 date: 2024-06-30
 ---
 
@@ -15,7 +15,13 @@ export async function getStaticProps() {
             game_number: latestGameInfo.game_number,
             game_author: latestGameInfo.game_author,
             game_data: JSON.stringify(latestGameInfo.game_data),
-            hints: JSON.stringify(latestGameInfo.hints)
+            hints: JSON.stringify(latestGameInfo.hints),
+            __nextra_dynamic_opts: {
+                title: `NYT Connections Hints Today - ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Clues & Answers`,
+                frontMatter: {
+                    description: `NYT Connections hints today for ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, including categorized clues and answers. Play with unlimited mode or check the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, this page has a fixed URL, making it easy to access daily without searching.`
+                }
+            }
         }
     };
 }

@@ -196,7 +196,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     const path = asPath.indexOf("?") > 0 ? asPath.substring(0, asPath.indexOf("?")) : asPath
 
-    const title = `${pageTitle}${path === "/" ? "" : " | EzyMP3-Easy YouTube to MP3"}`
+    const title = `${pageTitle}${path === "/" ? "" : " | Nyt Connections Hints"}`
     const { description, canonical, image } = frontMatter
 
     return (

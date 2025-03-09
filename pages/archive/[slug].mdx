@@ -22,7 +22,11 @@ export async function getStaticProps({ params }) {
     }
   }
 
-  if (game_number < min_game_number || game_date > new Date()) {
+  const todayDate = new Date()
+  todayDate.setHours(0, 0, 0, 0)
+  console.log(`todayDate: ${todayDate}`)
+
+  if (game_number < min_game_number || game_date > todayDate) {
     console.log(`game_number: ${game_number} or game_date: ${game_date} is invalid in [slug].mdx getStaticProps`)
     return {
       notFound: true
@@ -38,10 +42,6 @@ export async function getStaticProps({ params }) {
     }
   }
 
-  const todayDate = new Date()
-  todayDate.setHours(0, 0, 0, 0)
-  console.log(`todayDate: ${todayDate}`)
-
   console.log(`retrieved gameInfo in [slug].mdx getStaticProps: \n\n${JSON.stringify(gameInfo)}\n\n`)
   const { __nextra_pageMap } = await buildDynamicMeta()
   return {
@@ -55,7 +55,10 @@ export async function getStaticProps({ params }) {
       has_next: game_date < todayDate,
       __nextra_pageMap,
       __nextra_dynamic_opts: {
-        frontMatter: {}
+        title: `NYT Connections Hints - ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Clues & Answers`,
+        frontMatter: {
+          description: `Find NYT Connections hints for ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, including categorized clues, answers, and unlimited mode. Explore the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, which change URLs daily and are hard to find, this page remains accessible anytime for easy reference.`,
+        }
       }
     }
   }
