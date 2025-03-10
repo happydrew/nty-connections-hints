@@ -14,7 +14,7 @@ export async function getStaticProps({ params }) {
     game_number = parseInt(slugSplits[slugSplits.length - 1])
     const game_date_str = `${slugSplits[slugSplits.length - 4]} ${slugSplits[slugSplits.length - 3]} ${slugSplits[slugSplits.length - 2]}`
     game_date = new Date(game_date_str)
-    console.log(`retrieved params in [slug].mdx getStaticProps, game_date: ${game_date}, game_number: ${game_number}`)
+    //console.log(`retrieved params in [slug].mdx getStaticProps, game_date: ${game_date}, game_number: ${game_number}`)
   } catch (e) {
     console.log('error in parsing slug in [slug].mdx getStaticProps', e)
     return {
@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
 
   const todayDate = new Date()
   todayDate.setHours(0, 0, 0, 0)
-  console.log(`todayDate: ${todayDate}`)
+  //console.log(`todayDate: ${todayDate}`)
 
   if (game_number < min_game_number || game_date > todayDate) {
     console.log(`game_number: ${game_number} or game_date: ${game_date} is invalid in [slug].mdx getStaticProps`)
@@ -42,7 +42,7 @@ export async function getStaticProps({ params }) {
     }
   }
 
-  console.log(`retrieved gameInfo in [slug].mdx getStaticProps: \n\n${JSON.stringify(gameInfo)}\n\n`)
+  //console.log(`retrieved gameInfo in [slug].mdx getStaticProps: \n\n${JSON.stringify(gameInfo)}\n\n`)
   const { __nextra_pageMap } = await buildDynamicMeta()
   return {
     props: {
@@ -66,7 +66,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const archiveData = await loadAllGameInfo();
-  console.log(`\n\nretrieving archiveData in [slug].mdx getStaticPaths: ${JSON.stringify(archiveData)}\n\n`)
+  //console.log(`\n\nretrieving archiveData in [slug].mdx getStaticPaths: ${JSON.stringify(archiveData)}\n\n`)
   const paths = Object.values(archiveData).map(gameInfo => {
     const url_date_seg = formatDateToArchiveUrlSeg(new Date(gameInfo.game_date))
     return {

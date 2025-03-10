@@ -156,7 +156,7 @@ const HintsPage = ({
     has_next?: boolean,
   }) => {
 
-  console.log(`HintsPage 组件接收到的参数：game_date=${game_date}, game_number=${game_number}, game_author=${game_author}, game_data=${game_data}, hints=${hints}`)
+  //console.log(`HintsPage 组件接收到的参数：game_date=${game_date}, game_number=${game_number}, game_author=${game_author}, game_data=${game_data}, hints=${hints}`)
 
   //首先解析game_data，得到groupHints, 和todayGroups
   const todayGroups: PzGroup[] = JSON.parse(game_data);

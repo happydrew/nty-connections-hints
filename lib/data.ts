@@ -37,7 +37,7 @@ function loadGameInfoFromFile(): { [key: number]: GameInfo } {
     for (const gameInfo of gameInfos) {
         archiveData[`${gameInfo.game_number}`] = gameInfo;
     }
-    console.log(`Loaded game infos from file: ${JSON.stringify(archiveData)}`);
+    // console.log(`Loaded game infos from file: ${JSON.stringify(archiveData)}`);
     return archiveData;
 }
 

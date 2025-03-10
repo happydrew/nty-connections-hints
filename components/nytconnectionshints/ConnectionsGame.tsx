@@ -41,7 +41,7 @@ export default function ConnectionsGame({
     unlimitedMode = true,
 }: ConnectionsGameProps) {
 
-    console.log(`ConnectionsGame 组件接收到的参数：\n groups: ${JSON.stringify(groups)}\n unlimitedMode: ${unlimitedMode}`);
+    //console.log(`ConnectionsGame 组件接收到的参数：\n groups: ${JSON.stringify(groups)}\n unlimitedMode: ${unlimitedMode}`);
 
     const [selectedWords, setSelectedWords] = useState<string[]>([]);
     const [shuffledWords, setShuffledWords] = useState<string[]>([]);
