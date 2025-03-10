@@ -49,6 +49,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
         return res.status(200).json({ revalidated: true, archiveUrl });
     } catch (error) {
-        return res.status(500).json({ message: 'Error revalidating', error });
+        console.error('Revalidation error:', error);
+        return res.status(500).json({
+            message: `Error revalidating`,
+            error: error instanceof Error ? {
+                name: error.name,
+                message: error.message
+            } : String(error)
+        });
     }
 }
