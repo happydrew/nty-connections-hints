@@ -90,7 +90,7 @@ async function getArchiveData(): Promise<{ year: number, months: { month: number
         }
         years[yearIndex].months[monthIndex].days.push({ day, url });
     })
-    years.sort((a, b) => b.year - a.year);
+    years.sort((a, b) => a.year - b.year);
     years.forEach(yearData => yearData.months.sort((a, b) => a.month - b.month));
     years.forEach(yearData => yearData.months.forEach(monthData => monthData.days.sort((a, b) => a.day - b.day)));
     return years;
