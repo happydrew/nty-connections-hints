@@ -1,10 +1,11 @@
 
-export { getArchiveData, getLatestGameInfo, getGameInfoByNumber, loadAllGameInfo };
+export { getArchiveData, getLatestGameInfo, getGameInfoByNumber, loadAllGameInfo, type GameInfo };
 
 import fs from 'fs';
 import path from 'path';
 import { createClient } from '@supabase/supabase-js';
 import { getArchiveUrlByDateAndNumber } from './utils';
+import {GroupHint,GroupData} from './interfaces'
 
 const SUPABASE_URL = process.env.SUPABASE_URL
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -13,8 +14,8 @@ interface GameInfo {
     game_date: string;
     game_number: number;
     game_author: string;
-    game_data: { data_level: number, group_name: string, group_words: string[] }[];
-    hints: { group_name: string, hints: { hintlevel: number, hint: string }[] }[];
+    game_data: GroupData[];
+    hints: GroupHint[];
 }
 
 async function loadAllGameInfo(): Promise<{ [key: number]: GameInfo }> {

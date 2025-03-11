@@ -3,23 +3,8 @@ import { Lock, Archive } from 'lucide-react';
 import ConnectionsGame from './ConnectionsGame';
 import { getDataLevelColor } from './ConnectionsGame';
 import Article from './Article';
-import { PzGroup } from './ConnectionsGame';
-import { formatDateToArchiveUrlSeg, getPreviousDate, getNextDate, getArchiveUrlByDateAndNumber } from '@lib/utils';
-
-interface Hint {
-  hintlevel: number;
-  hint: string;
-}
-
-interface OriGroupHint {
-  group_name: string;
-  hints: Hint[];
-}
-
-interface GroupHint {
-  data_level: number;
-  hints: Hint[];
-}
+import { GroupData, GroupHint } from '@lib/interfaces';
+import { getPreviousDate, getNextDate, getArchiveUrlByDateAndNumber } from '@lib/utils';
 
 function getHintlevelText(level: number) {
   switch (level) {
@@ -119,7 +104,7 @@ function getGroupTextByDatalevel(level: number) {
   }
 }
 
-const Hint = ({ title, hint, color }: { title: string, hint: string, color: string }) => {
+const HintCom = ({ title, hint, color }: { title: string, hint: string, color: string }) => {
 
   const [showHint, setShowHint] = useState(false);
 
@@ -150,25 +135,13 @@ const HintsPage = ({
     game_date: string,
     game_number: number,
     game_author: string,
-    game_data: string,
-    hints: string,
+    game_data: GroupData[],
+    hints: GroupHint[],
     has_previous?: boolean,
     has_next?: boolean,
   }) => {
 
   //console.log(`HintsPage 组件接收到的参数：game_date=${game_date}, game_number=${game_number}, game_author=${game_author}, game_data=${game_data}, hints=${hints}`)
-
-  //首先解析game_data，得到groupHints, 和todayGroups
-  const todayGroups: PzGroup[] = JSON.parse(game_data);
-  const groupNameToLevel = {}
-  todayGroups.forEach(group => {
-    groupNameToLevel[group.group_name] = group.data_level
-  })
-  const oriGroupHints: OriGroupHint[] = JSON.parse(hints)
-  const groupHints: GroupHint[] = oriGroupHints.map(groupHint => ({
-    data_level: groupNameToLevel[groupHint.group_name],
-    hints: groupHint.hints
-  }))
 
   const [showAnswer, setShowAnswer] = useState(false);
 
@@ -219,7 +192,7 @@ const HintsPage = ({
           <h2 className="text-xl font-semibold mb-4">Play Today's Puzzle</h2>
           <div className="rounded-lg flex items-center justify-center">
             <ConnectionsGame
-              groups={todayGroups}
+              groups={game_data}
               unlimitedMode={true}
             />
           </div>
@@ -252,7 +225,7 @@ const HintsPage = ({
         <div id="hints" className="bg-white rounded-lg shadow p-6 mb-8">
           <h2 className="text-xl font-semibold mb-4">Group Hints</h2>
 
-          {groupHints.map((hintgroup) =>
+          {hints.map((hintgroup) =>
             <div className='flex flex-col items-center justify-center p-4'>
               <h3 className='w-full flex items-center justify-start gap-2'>
                 <span className='inline-block w-[16px] h-[16px] rounded-full' style={{ backgroundColor: getDataLevelColor(hintgroup.data_level) }}></span>
@@ -261,7 +234,7 @@ const HintsPage = ({
 
               <div className='w-full flex flex-col items-center justify-center gap-2 p-4'>
                 {hintgroup.hints.map(hint =>
-                  <Hint title={getHintlevelText(hint.hintlevel)} hint={hint.hint} color={getHintlevelColor(hint.hintlevel, hintgroup.data_level)} />
+                  <HintCom title={getHintlevelText(hint.hintlevel)} hint={hint.hint} color={getHintlevelColor(hint.hintlevel, hintgroup.data_level)} />
                 )}
               </div>
             </div>
@@ -272,7 +245,7 @@ const HintsPage = ({
         <div id="group_name" className="bg-white rounded-lg shadow p-6 mb-8">
           <h2 className="text-xl font-semibold mb-4">Group name</h2>
 
-          {todayGroups.map(group =>
+          {game_data.map(group =>
             <div className='flex flex-col items-center justify-center p-2'>
               <h3 className='w-full flex items-center justify-start gap-2'>
                 <span className='inline-block w-[16px] h-[16px] rounded-full' style={{ backgroundColor: getDataLevelColor(group.data_level) }}></span>
@@ -280,7 +253,7 @@ const HintsPage = ({
               </h3>
 
               <div className='w-full flex flex-col items-center justify-center gap-2 px-4 py-2'>
-                <Hint title={`${getGroupTextByDatalevel(group.data_level)} name`} hint={group.group_name} color={getHintlevelColor(2, group.data_level)} />
+                <HintCom title={`${getGroupTextByDatalevel(group.data_level)} name`} hint={group.group_name} color={getHintlevelColor(2, group.data_level)} />
               </div>
             </div>
           )}
@@ -290,7 +263,7 @@ const HintsPage = ({
         <div id="group" className="bg-white rounded-lg shadow p-6 mb-8">
           <h2 className="text-xl font-semibold mb-4">Group first word</h2>
 
-          {todayGroups.map(group =>
+          {game_data.map(group =>
             <div className='flex flex-col items-center justify-center p-2'>
               <h3 className='w-full flex items-center justify-start gap-2'>
                 <span className='inline-block w-[16px] h-[16px] rounded-full' style={{ backgroundColor: getDataLevelColor(group.data_level) }}></span>
@@ -298,7 +271,7 @@ const HintsPage = ({
               </h3>
 
               <div className='w-full flex flex-col items-center justify-center gap-2 px-4 py-2'>
-                <Hint title={`${getGroupTextByDatalevel(group.data_level)} first word`} hint={group.group_words[0]} color={getHintlevelColor(2, group.data_level)} />
+                <HintCom title={`${getGroupTextByDatalevel(group.data_level)} first word`} hint={group.group_words[0]} color={getHintlevelColor(2, group.data_level)} />
               </div>
             </div>
           )}
@@ -321,7 +294,7 @@ const HintsPage = ({
               </div>}
             <h3 className="font-bold mb-4">Today's NYT Connections Answer:</h3>
             <div className='flex flex-col items-center justify-center gap-2'>
-              {todayGroups.map(group =>
+              {game_data.map(group =>
                 <div
                   style={{ backgroundColor: getDataLevelColor(group.data_level) }}
                   className={`w-full h-20 flex flex-col justify-center items-center rounded-lg`}

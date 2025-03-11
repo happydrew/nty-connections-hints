@@ -14,8 +14,8 @@ export async function getStaticProps() {
             game_date: latestGameInfo.game_date,
             game_number: latestGameInfo.game_number,
             game_author: latestGameInfo.game_author,
-            game_data: JSON.stringify(latestGameInfo.game_data),
-            hints: JSON.stringify(latestGameInfo.hints),
+            game_data: latestGameInfo.game_data,
+            hints: latestGameInfo.hints,
             __nextra_dynamic_opts: {
                 title: `NYT Connections Hints Today - ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Clues & Answers`,
                 frontMatter: {

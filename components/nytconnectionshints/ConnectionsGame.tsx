@@ -2,19 +2,11 @@
 'use client';
 
 export { getDataLevelColor };
-export type { PzGroup };
+import {GroupData} from '@lib/interfaces';
 
 import { useState, useEffect, useRef } from 'react';
 import { Switch, FormControlLabel } from "@mui/material";
 import { to2DArray } from '@utils'
-
-
-// 游戏数据，一个分组的数据结构
-interface PzGroup {
-    group_name: string,
-    group_words: string[],
-    data_level: number
-}
 
 const getDataLevelColor = (data_level: number) => {
     switch (data_level) {
@@ -32,7 +24,7 @@ const getDataLevelColor = (data_level: number) => {
 }
 
 type ConnectionsGameProps = {
-    groups: PzGroup[];
+    groups: GroupData[];
     unlimitedMode?: boolean;
 };
 
@@ -113,7 +105,7 @@ export default function ConnectionsGame({
         }
     };
 
-    async function solveAGroup(matchedGroup: PzGroup) {
+    async function solveAGroup(matchedGroup: GroupData) {
         // 已解决的卡片跳动效果
         const solvedGrids = Array.from(wordsRegion.current!.querySelectorAll('button'))
             .filter(grid => matchedGroup.group_words.includes(grid.textContent));
