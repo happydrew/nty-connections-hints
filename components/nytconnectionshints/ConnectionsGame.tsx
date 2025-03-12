@@ -2,7 +2,7 @@
 'use client';
 
 export { getDataLevelColor };
-import {GroupData} from '@lib/interfaces';
+import {GroupData} from '@lib/types';
 
 import { useState, useEffect, useRef } from 'react';
 import { Switch, FormControlLabel } from "@mui/material";

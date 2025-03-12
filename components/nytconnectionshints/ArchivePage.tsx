@@ -124,7 +124,7 @@ const HintCom = ({ title, hint, color }: { title: string, hint: string, color: s
   </div>
 }
 
-const HintsPage = ({
+const ArchivePage = ({
   game_date,
   game_number,
   game_author,
@@ -159,13 +159,16 @@ const HintsPage = ({
       {/* Header */}
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 ">
-          NYT connections hints and answers for today's puzzle - <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span> <span className='text-xl'>#{game_number}</span>
+          NYT connections archive - hints and answers for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span> <span className='text-xl'>#{game_number}</span>
         </h1>
 
         {/* Page Overview */}
         <div className=" rounded-lg p-6 mb-8">
           <p className="text-zinc-900 text-base leading-relaxed">
-            Hi!😊 This page daily-updates for NYT Connections <a className='text-primary !underline underline-offset-2' href="#hints">hints</a>, <a className='text-primary !underline underline-offset-2' href="#answers">answers</a> and help with multi-level clues, enhances your game experience.
+            Hi!😊 This page is NYT Connections archive for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span>.
+            If you're looking for the latest puzzle, head over to our daily update <a className='text-primary !underline underline-offset-2' href="/">homepage</a>. 🚀
+            On this page, You can find <a className='text-primary !underline underline-offset-2' href="#hints">hints</a>,
+            <a className='text-primary !underline underline-offset-2' href="#answers">answers</a> and help with multi-level clues for today's puzzle.
             Besides, you can <a className='text-primary !underline underline-offset-2' href="#game">play nyt connections unlimited mode</a>, and access all historical <a className='text-primary !underline underline-offset-2' href="/archive">NYT Connections archive</a>.
             Wish you have a good time playing NYT Connections today!
           </p>
@@ -288,4 +291,4 @@ const HintsPage = ({
   );
 };
 
-export default HintsPage;
+export default ArchivePage;

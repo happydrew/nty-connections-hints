@@ -55,7 +55,7 @@ export async function getStaticProps({ params }) {
       has_next: game_date < todayDate,
       __nextra_pageMap,
       __nextra_dynamic_opts: {
-        title: `NYT Connections Hints - ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Clues & Answers`,
+        title: `NYT Connections Archive - ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Hints & Answers`,
         frontMatter: {
           description: `Find NYT Connections hints for ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, including categorized clues, answers, and unlimited mode. Explore the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, which change URLs daily and are hard to find, this page remains accessible anytime for easy reference.`,
         }
@@ -82,6 +82,6 @@ export async function getStaticPaths() {
   }
 }
 
-import HintsPage from '@components/nytconnectionshints/HintsPage'
+import ArchivePage from '@components/nytconnectionshints/ArchivePage'
 
-<HintsPage {...props} />
+<ArchivePage {...props} />
