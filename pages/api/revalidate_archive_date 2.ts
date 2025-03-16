@@ -35,14 +35,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     console.log(`Archive URL: ${archiveUrl}`);
 
     try {
-        // 触发主页重生
-        console.log('Triggering homepage revalidation');
-        await res.revalidate('/');
-
-        // 触发 archive 页面重生
-        console.log('Triggering archive page revalidation');
-        await res.revalidate('/archive');
-
         // 触发 archive 具体日期页面重生
         console.log(`Triggering archiveDate page: ${archiveUrl} revalidation`);
         await res.revalidate(archiveUrl);
