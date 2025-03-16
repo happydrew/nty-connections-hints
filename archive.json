@@ -75231,6 +75231,123 @@
         ]
     },
     {
+        "game_date": "2025-03-15",
+        "game_number": 677,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "SHARP PROTRUSION",
+                "group_words": [
+                    "BARB",
+                    "BRISTLE",
+                    "NEEDLE",
+                    "SPINE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "FEATURES OF STRINGED INSTRUMENTS",
+                "group_words": [
+                    "BRIDGE",
+                    "NECK",
+                    "PEG",
+                    "STRING"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "LITIGATION VERBS",
+                "group_words": [
+                    "CHARGE",
+                    "MOVE",
+                    "SERVE",
+                    "SUE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "IN “STAR LIGHT, STAR BRIGHT”",
+                "group_words": [
+                    "MAY",
+                    "MIGHT",
+                    "TONIGHT",
+                    "WISH"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often sharp and can cause pain if touched."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find these on certain animals or plants."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of objects that can stab or prick in nature."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These components are essential for producing music."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They are found on instruments like violins and guitars."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider the parts that contribute to the sound and playability."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words relate to actions taken in a courtroom."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They describe what one might do when pursuing legal action."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "All of these terms involve initiating or progressing a legal case."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase involves wishes and hopes for the future."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider the timing and possibilities expressed in this saying."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It alludes to the desires of a person when gazing at the stars."
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "game_date": "2025-03-16",
         "game_number": 675,
         "game_author": "Wyna Liu",
