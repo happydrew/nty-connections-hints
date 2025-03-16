@@ -18,7 +18,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         // 触发主页重生
         console.log('Triggering homepage revalidation');
         await res.revalidate('/');
-        return res.status(200);
+        return res.status(200).json({ revalidated: true });
     } catch (error) {
         console.error('Revalidation error:', error);
         return res.status(500).json({

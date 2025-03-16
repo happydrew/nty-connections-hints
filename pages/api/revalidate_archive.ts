@@ -20,7 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         console.log('Triggering archive page revalidation');
         await res.revalidate('/archive');
 
-        return res.status(200);
+        return res.status(200).json({revalidated: true});
     } catch (error) {
         console.error('Revalidation error:', error);
         return res.status(500).json({
