@@ -1,6 +1,6 @@
 // pages/api/revalidate.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getArchiveUrlByDateAndNumber } from '@lib/utils'
+import { getArchiveUrlByDate } from '@lib/utils'
 
 type Data = {
     revalidated?: boolean;
@@ -16,11 +16,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         return res.status(405).json({ message: 'Method Not Allowed' });
     }
 
-    const { game_date, game_number } = req.body;
-    console.log(`Revalidate game_date: ${game_date}, game_number: ${game_number}`);
+    const { game_date } = req.body;
+    console.log(`Revalidate game_date: ${game_date}`);
 
-    if (!game_date || !game_number) {
-        return res.status(400).json({ message: 'Missing game_date or game_number in request body' });
+    if (!game_date) {
+        return res.status(400).json({ message: 'Missing game_date in request body' });
     }
 
     // 将 "2025-03-06" 转换成 Date 对象，判断是否合法
@@ -31,7 +31,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
     // 构造 archive 页面 URL，格式如下：
     // /archive/nyt-connections-hints-today-clues-help-answers-unlimited-${url_date_seg}-${game_number}
-    const archiveUrl = getArchiveUrlByDateAndNumber(date, game_number);
+    const archiveUrl = getArchiveUrlByDate(date);
     console.log(`Archive URL: ${archiveUrl}`);
 
     try {

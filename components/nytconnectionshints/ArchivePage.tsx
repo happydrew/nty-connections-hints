@@ -159,18 +159,16 @@ const ArchivePage = ({
       {/* Header */}
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 ">
-          NYT connections archive - hints and answers for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span> <span className='text-xl'>#{game_number}</span>
+          NYT Connections hints and answers for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span> <span className='text-xl'>#{game_number}</span>
         </h1>
 
         {/* Page Overview */}
         <div className=" rounded-lg p-6 mb-8">
           <p className="text-zinc-900 text-base leading-relaxed">
-            Hi!😊 This page is NYT Connections archive for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span>.
-            If you're looking for the latest puzzle, head over to our daily update <a className='text-primary !underline underline-offset-2' href="/">homepage</a>. 🚀
-            On this page, You can find <a className='text-primary !underline underline-offset-2' href="#hints">hints</a>,
-            <a className='text-primary !underline underline-offset-2' href="#answers">answers</a> and help with multi-level clues for today's puzzle.
-            Besides, you can <a className='text-primary !underline underline-offset-2' href="#game">play nyt connections unlimited mode</a>, and access all historical <a className='text-primary !underline underline-offset-2' href="/archive">NYT Connections archive</a>.
-            Wish you have a good time playing NYT Connections today!
+            Here's NYT Connections <a className='text-primary !underline underline-offset-2' href="#hints">hints</a> and <a className='text-primary !underline underline-offset-2' href="#answers">answers</a> for <span className='text-primary'>{getFormattedDate(new Date(game_date))}</span>.
+            This page is archived, if you're looking for the latest puzzle, head over to <a className='text-primary !underline underline-offset-2' href="/">Nyt Connections hints today</a> which is daily update.🚀
+            Enjoy the intresting multi-level clues and help for the puzzle, <a className='text-primary !underline underline-offset-2' href="#game">play nyt connections unlimited mode</a>, and access all past <a className='text-primary !underline underline-offset-2' href="/archive">NYT Connections archive</a>.
+            Wish you have a good time playing NYT Connections today🎉
           </p>
         </div>
 

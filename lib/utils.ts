@@ -1,6 +1,6 @@
 export {
-    formatDateToArchiveUrlSeg, getPreviousDate, getNextDate, getArchiveUrlByDateAndNumber,
-    getPreviousDayUrl, getNextDayUrl, getFormattedDate
+    formatDateToArchiveUrlSeg, getPreviousDate, getNextDate, getArchiveUrlByDate,
+    getPreviousDayUrl, getNextDayUrl, getFormattedDate,getArchiveUrlSlugByDate
 }
 
 function formatDateToArchiveUrlSeg(date: Date): string {
@@ -20,16 +20,20 @@ function getNextDate(date: Date): Date {
 }
 
 function getPreviousDayUrl(game_date: string, game_number: number): string {
-    return getArchiveUrlByDateAndNumber(getPreviousDate(new Date(game_date)), game_number - 1)
+    return getArchiveUrlByDate(getPreviousDate(new Date(game_date)))
 }
 
 function getNextDayUrl(game_date: string, game_number: number): string {
-    return getArchiveUrlByDateAndNumber(getNextDate(new Date(game_date)), game_number + 1)
+    return getArchiveUrlByDate(getNextDate(new Date(game_date)))
 }
 
-function getArchiveUrlByDateAndNumber(game_date: Date, game_number: number): string {
+function getArchiveUrlByDate(game_date: Date): string {
+    return `/archive/${getArchiveUrlSlugByDate(game_date)}`
+}
+
+function getArchiveUrlSlugByDate(game_date: Date): string {
     const url_date_seg = formatDateToArchiveUrlSeg(game_date)
-    return `/archive/nyt-connections-hints-today-clues-help-answers-unlimited-${url_date_seg}-${game_number}`
+    return `nyt-connections-hints-today-answers-clues-help-unlimited-${url_date_seg}`
 }
 
 function getFormattedDate(date: Date) {

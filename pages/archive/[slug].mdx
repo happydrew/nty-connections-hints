@@ -1,20 +1,26 @@
 import { buildDynamicMeta } from "nextra/remote"
-import { getGameInfoByNumber, loadAllGameInfo } from "@lib/data"
-import { formatDateToArchiveUrlSeg } from "@lib/utils"
+import { getGameInfoByDate, loadAllGameInfo } from "@lib/data"
+import { formatDateToArchiveUrlSeg, getArchiveUrlSlugByDate } from "@lib/utils"
+import { format } from 'date-fns'
 
 export async function getStaticProps({ params }) {
   //console.log(`retrieved params in [slug].mdx getStaticProps: \n\n${JSON.stringify(params)}\n\n`)
-  //从url中解析出game_number
-  let game_number;
+  //从url中解析出game_date
   let game_date;
-  const min_game_number = process.env.MIN_GAME_NUMBER != undefined ? parseInt(process.env.MIN_GAME_NUMBER) : 1
+  const min_game_date = process.env.MIN_GAME_DATE != undefined ? new Date(process.env.MIN_GAME_DATE) : "2023-06-12"
 
+  let game_date_str = null;
   try {
     const slugSplits = params.slug.split('-')
-    game_number = parseInt(slugSplits[slugSplits.length - 1])
-    const game_date_str = `${slugSplits[slugSplits.length - 4]} ${slugSplits[slugSplits.length - 3]} ${slugSplits[slugSplits.length - 2]}`
-    game_date = new Date(game_date_str)
-    //console.log(`retrieved params in [slug].mdx getStaticProps, game_date: ${game_date}, game_number: ${game_number}`)
+    const slug_game_date_str = `${slugSplits[slugSplits.length - 3]} ${slugSplits[slugSplits.length - 2]} ${slugSplits[slugSplits.length - 1]}`
+    game_date = new Date(slug_game_date_str)
+    game_date_str = format(game_date, 'yyyy-MM-dd')
+    if (game_date_str < min_game_date) {
+      return {
+        notFound: true
+      }
+    }
+    //console.log(`retrieved params in [slug].mdx getStaticProps, game_date: ${game_date}`)
   } catch (e) {
     console.log('error in parsing slug in [slug].mdx getStaticProps', e)
     return {
@@ -22,21 +28,10 @@ export async function getStaticProps({ params }) {
     }
   }
 
-  const todayDate = new Date()
-  todayDate.setHours(0, 0, 0, 0)
-  //console.log(`todayDate: ${todayDate}`)
-
-  if (game_number < min_game_number || game_date > todayDate) {
-    console.log(`game_number: ${game_number} or game_date: ${game_date} is invalid in [slug].mdx getStaticProps`)
-    return {
-      notFound: true
-    }
-  }
-
-  const gameInfo = await getGameInfoByNumber(game_number)
+  const gameInfo = await getGameInfoByDate(game_date)
   // 如果没有找到对应的game_number，返回notFound
   if (!gameInfo) {
-    console.log(`game_number: ${game_number} not found in [slug].mdx getStaticProps`)
+    console.log(`game info for date: ${game_date_str} not found in [slug].mdx getStaticProps`)
     return {
       notFound: true
     }
@@ -51,13 +46,13 @@ export async function getStaticProps({ params }) {
       game_author: gameInfo.game_author,
       game_data: gameInfo.game_data,
       hints: gameInfo.hints,
-      has_previous: game_number > min_game_number,
-      has_next: game_date < todayDate,
+      has_previous: game_date_str > min_game_date,
+      has_next: true,
       __nextra_pageMap,
       __nextra_dynamic_opts: {
-        title: `NYT Connections Archive - ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Hints & Answers`,
+        title: `NYT Connections hints and answers for ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`,
         frontMatter: {
-          description: `Find NYT Connections hints for ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, including categorized clues, answers, and unlimited mode. Explore the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, which change URLs daily and are hard to find, this page remains accessible anytime for easy reference.`,
+          description: `See NYT Connections hints and answers for ${game_date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, enjoy intresting multi-level clues and help, play Nyt Connections unlimited mode, and access all past NYT Connections archive.`,
         }
       }
     }
@@ -68,11 +63,9 @@ export async function getStaticPaths() {
   const archiveData = await loadAllGameInfo();
   //console.log(`\n\nretrieving archiveData in [slug].mdx getStaticPaths: ${JSON.stringify(archiveData)}\n\n`)
   const paths = Object.values(archiveData).map(gameInfo => {
-    const url_date_seg = formatDateToArchiveUrlSeg(new Date(gameInfo.game_date))
     return {
       params: {
-        slug: `nyt-connections-hints-today-clues-help-answers-unlimited-${url_date_seg}-${gameInfo.game_number}`,
-        game_date: gameInfo.game_date
+        slug: getArchiveUrlSlugByDate(new Date(gameInfo.game_date)),
       }
     }
   })

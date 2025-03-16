@@ -74059,5 +74059,3632 @@
                 ]
             }
         ]
+    },
+    {
+        "game_date": "2023-07-21",
+        "game_number": 40,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "WOODWINDS",
+                "group_words": [
+                    "BASSOON",
+                    "CLARINET",
+                    "FLUTE",
+                    "OBOE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "COVERINGS",
+                "group_words": [
+                    "CAP",
+                    "COVER",
+                    "LID",
+                    "TOP"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "SUNGLASSES",
+                "group_words": [
+                    "AVIATOR",
+                    "CAT EYE",
+                    "WAYFARER",
+                    "WRAPAROUND"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "SEALS",
+                "group_words": [
+                    "HARBOR",
+                    "HARP",
+                    "HOODED",
+                    "MONK"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These instruments are often found in orchestras."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can create a range of expressive sounds and melodies."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You blow air through them to produce music, and they typically have a reed or hole."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think of items that provide shelter or protection."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These can also be something you put on your head."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are often used to keep things safe, or to cover something completely."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are worn to protect your eyes from sunlight."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They come in various stylish designs and shapes."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Commonly seen on celebrities, they can enhance both fashion and functionality."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often found near large bodies of water."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Some of them are known for their loud vocalizations."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They can be associated with both music and marine environments."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2023-08-31",
+        "game_number": 81,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "APPETIZER UNIT",
+                "group_words": [
+                    "FRY",
+                    "NACHO",
+                    "POPPER",
+                    "WING"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "RESPONSE TO A CORRECT ANSWER",
+                "group_words": [
+                    "BINGO",
+                    "CORRECT",
+                    "RIGHT",
+                    "YES"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "MAR",
+                "group_words": [
+                    "CHIP",
+                    "DING",
+                    "NICK",
+                    "SCRATCH"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___JACK",
+                "group_words": [
+                    "APPLE",
+                    "CRACKER",
+                    "FLAP",
+                    "LUMBER"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are small dishes often served before the main course."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can be crispy, cheesy, or spicy."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of popular starter items you might share at a party."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This is often said when something is done correctly."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It’s a term associated with games and quizzes."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "This phrase signifies affirmation and agreement."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This word can refer to a minor injury."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It’s also a part of a popular phrase for a method of fixing things."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about words that can mean something small but annoying."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This term often precedes things related to playfulness."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It can be something associated with woodwork or snacks."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Completing this phrase could refer to various fun items or actions."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2023-11-25",
+        "game_number": 167,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "SECLUDED",
+                "group_words": [
+                    "HIDDEN",
+                    "PRIVATE",
+                    "REMOTE",
+                    "SECRET"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "AGGREGATE SIZE",
+                "group_words": [
+                    "AMOUNT",
+                    "NUMBER",
+                    "QUANTITY",
+                    "VOLUME"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "BODIES OF WATER",
+                "group_words": [
+                    "CANAL",
+                    "CHANNEL",
+                    "SOUND",
+                    "STRAIT"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "READS THE SAME ROTATED 180°",
+                "group_words": [
+                    "96",
+                    "MOW",
+                    "NOON",
+                    "SIS"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think of places that are hard to find."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These are often kept away from public view."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider things that people want to keep unknown."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This reflects how much of something there is."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It can represent mass, count, or extent."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about measuring amounts in various contexts."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are natural features often associated with travel."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can vary in size and are essential to ecosystems."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider areas where water flows or is contained."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words look the same even when flipped upside down."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They often appear in puzzles or word games."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider terms that have a symmetrical appearance."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2023-11-29",
+        "game_number": 171,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "FOOT PARTS",
+                "group_words": [
+                    "ARCH",
+                    "BALL",
+                    "SOLE",
+                    "TOE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "MUSICAL INSTRUMENTS",
+                "group_words": [
+                    "BASS",
+                    "HARP",
+                    "HORN",
+                    "ORGAN"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "DOG COMMANDS",
+                "group_words": [
+                    "COME",
+                    "DOWN",
+                    "SIT",
+                    "STAY"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "BADDIE",
+                "group_words": [
+                    "DOG",
+                    "HEEL",
+                    "JERK",
+                    "SNAKE"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are essential for walking."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Some of these parts help in providing support."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about the components of your feet."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These create beautiful sounds."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You can find them in an orchestra."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Instruments like string and wind are in this category."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are commands often used in training."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might say these when you want your pet to follow instructions."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These phrases are used to guide a loyal companion."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These characters often create chaos."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They might oppose the hero in a story."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Commonly, they have traits that are sinister."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2023-12-02",
+        "game_number": 174,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "CONTAINERS",
+                "group_words": [
+                    "BASKET",
+                    "BIN",
+                    "CHEST",
+                    "HAMPER"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "CIRCULAR SHAPES",
+                "group_words": [
+                    "BAND",
+                    "CIRCLE",
+                    "HOOP",
+                    "RING"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "RESTRICT",
+                "group_words": [
+                    "CAP",
+                    "CHECK",
+                    "CURB",
+                    "LIMIT"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___ JAM",
+                "group_words": [
+                    "NBA",
+                    "PAPER",
+                    "PEARL",
+                    "TRAFFIC"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These objects help you hold or store things."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about items often used for organization."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These can be used in homes to manage clutter."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These shapes can roll."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find these in games or sports."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are often associated with loops or curves."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These imply limits or boundaries."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider rules or conditions that control actions."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They often represent something that it is not allowed to exceed."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase suggests something that can become congested."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about situations that can cause delays in movement."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It’s often related to transportation or sports."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2023-12-03",
+        "game_number": 175,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "MONTHLY BILLS",
+                "group_words": [
+                    "CABLE",
+                    "ELECTRIC",
+                    "GAS",
+                    "WATER"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "RELATED TO SOUND/HEARING",
+                "group_words": [
+                    "ACOUSTIC",
+                    "AUDITORY",
+                    "HEARD",
+                    "SONIC"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "CONNECT",
+                "group_words": [
+                    "COUPLE",
+                    "HITCH",
+                    "LINK",
+                    "TIE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "EXCITE, WITH “UP”",
+                "group_words": [
+                    "AMP",
+                    "FIRE",
+                    "HYPE",
+                    "PUMP"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are regular payments you make every month."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You usually receive bills for these services."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They include utility costs and television subscriptions."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These relate to what you can hear."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They are involved in the study of sound."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of terms associated with how we perceive noises."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This involves joining or binding things together."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might do this to partners in a relationship."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words signify attachment and association."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words are often associated with increasing excitement."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They imply amplification or energetic activity."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider actions that elevate energy or enthusiasm."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-11",
+        "game_number": 639,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "VARIATION FROM THE NORM",
+                "group_words": [
+                    "ALTERNATIVE",
+                    "BREAK",
+                    "CHANGE",
+                    "DEPARTURE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "THINGS THAT RING",
+                "group_words": [
+                    "ALARM",
+                    "BELL",
+                    "INTERCOM",
+                    "PHONE"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "THINGS TRADITIONALLY MADE OF LEATHER",
+                "group_words": [
+                    "FOOTBALL",
+                    "MOCCASINS",
+                    "SADDLE",
+                    "WALLET"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "SINGER-SONGWRITER PIANISTS",
+                "group_words": [
+                    "KEYS",
+                    "KING",
+                    "LEGEND",
+                    "WONDER"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are not the usual options."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Often involves a shift from what's expected."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider variations or shifts in standard practices."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These items can alert you."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They often serve as a signal or notification."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Commonly associated with communication or emergencies."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Often crafted from a durable material."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These are items often used in sports or personal accessories."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about products that are classic and can be worn or used daily."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These individuals often share personal stories through music."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Check for artists who mix vocals with piano melodies."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Famous figures in this group often have a distinctive and powerful sound."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-12",
+        "game_number": 640,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "INGREDIENTS IN CLASSIC POUND CAKE",
+                "group_words": [
+                    "BUTTER",
+                    "EGGS",
+                    "FLOUR",
+                    "SUGAR"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "THINGS THAT ARE RED",
+                "group_words": [
+                    "CARDINAL",
+                    "ELMO",
+                    "KETCHUP",
+                    "ROSE"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "WORDS SAID TO HAVE NO EXACT RHYMES",
+                "group_words": [
+                    "MONTH",
+                    "ORANGE",
+                    "PURPLE",
+                    "SILVER"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___ CANDY",
+                "group_words": [
+                    "COTTON",
+                    "EYE",
+                    "JOHN",
+                    "ROCK"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This cake is known for its dense and buttery texture."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Four essential components come together to create this dessert."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "This cake typically requires specific staples found in many kitchens."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This color is often associated with passion and excitement."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of a popular children's character and a sauce for fries."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These items are often used to symbolize love or celebration."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words are tricky when it comes to finding a rhyming partner."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Some of these colors can be difficult to use in poetry or lyrics."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of words that are commonly used yet don't conform to typical phonetic patterns."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This candy is often associated with fairs and childhood treats."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Its fluffy texture and sweetness make it a favorite at carnivals."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The name of this candy includes a word that might be related to sight."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-13",
+        "game_number": 641,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "PARTIALITY",
+                "group_words": [
+                    "ANGLE",
+                    "BIAS",
+                    "SLANT",
+                    "SPIN"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "SIGNAL DOWN, AS A TAXI",
+                "group_words": [
+                    "FLAG",
+                    "HAIL",
+                    "WAVE",
+                    "WHISTLE"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "CARDS IN TEXAS HOLD ’EM",
+                "group_words": [
+                    "FLOP",
+                    "HOLE",
+                    "RIVER",
+                    "TURN"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "SHAKESPEAREAN WORDS",
+                "group_words": [
+                    "ANON",
+                    "ART",
+                    "THOU",
+                    "WILT"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This term often relates to opinions that are not neutral."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It can refer to a skewed perspective or viewpoint."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about how someone's preferences might influence their judgment or decisions."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This is something you might do to get the attention of a vehicle."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It's related to signaling or indicating something to a driver."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider actions that help you communicate with someone who is operating a transport service."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms are associated with a popular card game."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They describe different stages of play in a hand."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about the different phases of how cards are revealed to players during the game."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often used in classic literature."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They reflect older forms of English language."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider words that evoke an antiquated or poetic style of communication."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-14",
+        "game_number": 642,
+        "game_author": "By Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "IMPOSE, AS A PENALTY",
+                "group_words": [
+                    "ASSESS",
+                    "CHARGE",
+                    "FINE",
+                    "LEVY"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "CHECKOUT LINE IMPULSE BUYS",
+                "group_words": [
+                    "CANDY",
+                    "CHAPSTICK",
+                    "CHARGING CABLE",
+                    "MAGAZINE"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "MOVIES OF VARIOUS LENGTHS",
+                "group_words": [
+                    "EPIC",
+                    "FEATURE",
+                    "FILM SERIES",
+                    "SHORT"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___ ROAD",
+                "group_words": [
+                    "DIRT",
+                    "HIGH",
+                    "ROCKY",
+                    "SILK"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This involves a monetary punishment."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It's a term often used in legal and financial contexts."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You might encounter this when discussing taxes or penalties."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These items are often bought while waiting."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find them at the end of your shopping journey."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are usually small and tempting purchases."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms relate to durations of storytelling."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can describe how long a story feels."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You might categorize films based on their length."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "A type of path you might take in nature."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These might differ in stability or texture."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about what kind of surface can be underfoot in different terrains."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-16",
+        "game_number": 675,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "BUNCH",
+                "group_words": [
+                    "CLUSTER",
+                    "COLLECTION",
+                    "CONSTELLATION",
+                    "GROUP"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "ENDING WITH SILENT “T”",
+                "group_words": [
+                    "BALLET",
+                    "DEBUT",
+                    "RAPPORT",
+                    "TAROT"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "SERIAL KILLER MOVIES",
+                "group_words": [
+                    "MONSTER",
+                    "PSYCHO",
+                    "SEVEN",
+                    "ZODIAC"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "STARTING WITH CONSTELLATIONS",
+                "group_words": [
+                    "DRACONIAN",
+                    "HYDRANT",
+                    "LEONARDO",
+                    "LIBRARY"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think about objects that can be grouped together."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This concept signifies a collection or gathering of similar items."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Commonly used in statistics and social contexts to describe a set of entities."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These relate to activities or concepts that are often non-verbal."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They all share a common characteristic of omitting a certain sound."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms often describe forms of artistic expression or social interaction."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These films often feature a main character that instills fear."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They typically explore dark themes involving crime or morality."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Some of these titles are well-known and have become cultural references to violence."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words are associated with astronomical figures or concepts."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They share a common link with renowned patterns in the night sky."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Some of these words are not directly linked to stars but have celestial connotations."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-17",
+        "game_number": 684,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "FILAMENT",
+                "group_words": [
+                    "FIBER",
+                    "STRAND",
+                    "STRING",
+                    "THREAD"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "UNINHIBITEDNESS",
+                "group_words": [
+                    "ABANDON",
+                    "FREEDOM",
+                    "SPONTANEITY",
+                    "UNRESTRAINT"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "KINDS OF TRUCKS",
+                "group_words": [
+                    "DUMP",
+                    "GARBAGE",
+                    "MONSTER",
+                    "PICKUP"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "BANDS MINUS THE NUMBER FIVE",
+                "group_words": [
+                    "BEN FOLDS",
+                    "JACKSON",
+                    "MAROON",
+                    "MC"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think of something that can be thin or thick and is often used in textiles."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These items are often twisted together to create longer lengths."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You might find these in a sewing kit or used in crafting."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "It's a state of being free to act as you wish."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This concept involves living without restrictions or limitations."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It can be described as the absence of control or constraints."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These vehicles are often seen on construction sites or roads."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They vary in size and purpose, from hauling to transporting goods."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You may see them used in waste management or for recreational activities."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are musical groups known for their unique styles."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Some of them have gained fame without a specific numeral in their names."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of artists who often perform under the name without including any digits."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-18",
+        "game_number": 683,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "EXCEPTIONAL",
+                "group_words": [
+                    "REMARKABLE",
+                    "SINGULAR",
+                    "SPECIAL",
+                    "UNIQUE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "GERMAN WORDS",
+                "group_words": [
+                    "ANGST",
+                    "DIE",
+                    "KINDER",
+                    "WURST"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "PLURAL ANIMALS IDENTICAL TO THEIR SINGULAR FORMS",
+                "group_words": [
+                    "DEER",
+                    "SHEEP",
+                    "SHRIMP",
+                    "SQUID"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "PLURAL WORDS THAT ARE VERY DIFFERENT FROM THEIR SINGULAR FORMS",
+                "group_words": [
+                    "DICE",
+                    "LICE",
+                    "MICE",
+                    "OXEN"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words often denote something out of the ordinary."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of terms that imply standing out or being one of a kind."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words describe things that are not typical or usual."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are commonly used terms in a specific European language."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Look for words that might evoke feelings or refer to kids."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider words that can represent both a type of food and a cultural concept."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These animals have the same name whether referring to one or many."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of creatures that remain unchanged in form despite the count."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These four-legged and aquatic entities do not alter their names in plural."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words transform significantly when pluralized."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider terms that indicate multiple entities but sound nothing like the singular."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words showcase a dramatic change in spelling and pronunciation from singular to plural."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-19",
+        "game_number": 685,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "SIGNIFY",
+                "group_words": [
+                    "CONVEY",
+                    "EXPRESS",
+                    "MEAN",
+                    "SPELL"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "WEB BROWSER BUTTONS",
+                "group_words": [
+                    "BACK",
+                    "EXTENSIONS",
+                    "FORWARD",
+                    "REFRESH"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "PARTS OF A ROAD",
+                "group_words": [
+                    "DIVIDER",
+                    "LANE",
+                    "MEDIAN",
+                    "SHOULDER"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "À/A LA ___",
+                "group_words": [
+                    "CARTE",
+                    "KING",
+                    "MODE",
+                    "PLANCHA"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This is about communicating ideas."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about how we share thoughts or feelings."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It involves the actions of indicating or representing something."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are controls you use while browsing."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They help you navigate the web."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You commonly find these options at the top or corner of a browser."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These elements are essential for road safety."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They define the layout and organization of a roadway."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about features that separate traffic and guide drivers."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase often appears in menus or orders."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It typically denotes a choice or a style of dining."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The phrase is associated with a particular way to serve food in culinary contexts."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-20",
+        "game_number": 681,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "OUTSPOKEN",
+                "group_words": [
+                    "DIRECT",
+                    "FRANK",
+                    "LOUD",
+                    "VOCAL"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "BODIES OF WATER",
+                "group_words": [
+                    "BAY",
+                    "CHANNEL",
+                    "SOUND",
+                    "STRAIT"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "KINDS OF CORDS",
+                "group_words": [
+                    "BUNGEE",
+                    "EXTENSION",
+                    "SPINAL",
+                    "UMBILICAL"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "THINGS IN BOTTLES",
+                "group_words": [
+                    "GENIE",
+                    "LIGHTNING",
+                    "MESSAGE",
+                    "SHIP"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group relates to being straightforward."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of strong opinions expressed loud and clear."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms describe a way of expressing oneself without holding back."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are natural features related to large areas of water."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They are often found near coastlines and can serve as passages."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms denote different types of water bodies that you might navigate."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group is related to types of flexible connections."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider items that can stretch or extend."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms describe specific uses of cords vital for different functions."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These items are sealed away for a purpose."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about what you might find when opening a container."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms relate to magical, mystical, or informative contents sealed in vessels."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-21",
+        "game_number": 680,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "MILIEU",
+                "group_words": [
+                    "CIRCLE",
+                    "SCENE",
+                    "SPHERE",
+                    "WORLD"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "LUMINARY",
+                "group_words": [
+                    "GREAT",
+                    "ICON",
+                    "LEGEND",
+                    "LION"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "ARCHITECTURAL DRAWING TOOLS",
+                "group_words": [
+                    "COMPASS",
+                    "RULER",
+                    "STENCIL",
+                    "T-SQUARE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "BAR ___",
+                "group_words": [
+                    "CHART",
+                    "EXAM",
+                    "MITZVAH",
+                    "SOAP"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group relates to enclosed areas or environments."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about spherical shapes and the concept of a space."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms denote various forms of atmospheres or realms."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often associated with influential figures."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider prominent personalities who are celebrated for their achievements."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The words here represent individuals who stand out in their respective fields, often leaving a legacy."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These tools help in precise measurements and drawings."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of what an architect would use to create detailed plans."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These implements are essential for technical drawing and design in engineering and architecture."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase suggests something related to a social gathering or occasion."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider events or activities that might occur in a public or private setting."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms often describe various types of assessments or celebrations."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-22",
+        "game_number": 679,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "MUSICAL INSTRUMENTS",
+                "group_words": [
+                    "TAMBOURINE",
+                    "THEREMIN",
+                    "TIMPANI",
+                    "TROMBONE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "KNICKKNACK",
+                "group_words": [
+                    "TCHOTCHKE",
+                    "THINGAMAJIG",
+                    "TRIFLE",
+                    "TRINKET"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "WORDS WITH THE PREFIX MEANING “THREE”",
+                "group_words": [
+                    "TRIANGLE",
+                    "TRIDENT",
+                    "TRILLION",
+                    "TRILOBITE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "WORDS ABBREVIATED WITH “T” + LETTER",
+                "group_words": [
+                    "TELEVISION",
+                    "TOUCHDOWN",
+                    "TRADEMARK",
+                    "TUBERCULOSIS"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These objects are used to create melodies and rhythms."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find these in an orchestra or a band."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Some of them are played using hands, while others require air to produce sound."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are small decorative items often found around the house."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They are commonly collected and can be whimsical or sentimental."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "People often use these as conversation starters or gifts."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms indicate a quantity associated with the number three."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They often appear in geometry or biology."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Each of these words starts with a prefix that signifies the number three."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words are often shortened with a 'T' and a following letter."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Commonly found in everyday language, they relate to technology, sports, and health."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You might encounter these in conversations or media, often in an abbreviated form."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-23",
+        "game_number": 690,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "CAPTIVATE",
+                "group_words": [
+                    "ABSORB",
+                    "ENTRANCE",
+                    "GRAB",
+                    "RIVET"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "THINGS WITH WINGS",
+                "group_words": [
+                    "AIRPLANE",
+                    "FAIRY",
+                    "FLY",
+                    "HOSPITAL"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "WORDS THAT MODIFY “WATCH”",
+                "group_words": [
+                    "POCKET",
+                    "SMART",
+                    "STOP",
+                    "WRIST"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "WORDS REPEATED IN “MISS MARY MACK”",
+                "group_words": [
+                    "BACK",
+                    "BLACK",
+                    "BUTTONS",
+                    "MACK"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This word means to hold someone's attention."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of ways to engage or draw someone in."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Related to fascination and attracting interest."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often seen high in the sky."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can be found in nature or man-made."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Includes both mythical and practical examples."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "They describe features or kinds of a wrist item."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about different styles for keeping track of time."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Often used to specify types or purposes."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are commonly repeated phrases in a children's rhyme."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about common words and their repetition."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Involves items and colors mentioned together."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-24",
+        "game_number": 686,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "BAD-SMELLING",
+                "group_words": [
+                    "FOUL",
+                    "RANK",
+                    "RIPE",
+                    "SOUR"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "UNFLUCTUATING",
+                "group_words": [
+                    "CONSTANT",
+                    "LEVEL",
+                    "STABLE",
+                    "UNIFORM"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "WHO VIDEO GAMES ARE FOR, PER ESRB RATINGS",
+                "group_words": [
+                    "ADULTS ONLY",
+                    "EVERYONE",
+                    "TEEN",
+                    "MATURE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "THINGS WITH LAYERS",
+                "group_words": [
+                    "EARTH",
+                    "HENHOUSE",
+                    "ONION",
+                    "PHOTOSHOP"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group consists of unpleasant odors."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of smells that can make you wrinkle your nose."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms often describe foods that have gone bad or are overly ripe."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group suggests a lack of change."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider terms related to steadiness and consistency."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words describe situations or conditions that remain the same over time."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These categories relate to who can play certain types of games."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about age-appropriate ratings for video games."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "This group includes terms that specify audience maturity and suitability."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These items all have different layers."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider things found in nature or technology with multiple levels."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "This group encompasses both organic and digital entities that can be peeled or stratified."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-25",
+        "game_number": 687,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "BLACK-AND-WHITE THINGS",
+                "group_words": [
+                    "CROSSWORD",
+                    "OREO",
+                    "PANDA",
+                    "TUXEDO"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "ANAGRAMS",
+                "group_words": [
+                    "ABEL",
+                    "ABLE",
+                    "BALE",
+                    "BELA"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "U.S. PRESIDENTIAL NICKNAMES",
+                "group_words": [
+                    "ABE",
+                    "CAL",
+                    "DICK",
+                    "TEDDY"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "CLEAR AS ___",
+                "group_words": [
+                    "A BELL",
+                    "CRYSTAL",
+                    "DAY",
+                    "MUD"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think about contrasting colors."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These items can often be found in puzzles or desserts."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They're commonly associated with fashion and animals."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words can be rearranged to form each other."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They all share the same letters but in different orders."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are often used in word games and puzzles."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are affectionate or familiar titles for leaders."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might recognize these from historical figures in American politics."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They often reflect personal characteristics or notable achievements."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase can mean very transparent or easy to understand."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It's a common saying used to describe clarity."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It fills in the blank in a popular expression."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-26",
+        "game_number": 688,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "PARTS OF A TABLE SETTING",
+                "group_words": [
+                    "FORK",
+                    "GLASS",
+                    "NAPKIN",
+                    "PLATE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "INCREASED, WITH “UP”",
+                "group_words": [
+                    "FLEW",
+                    "ROSE",
+                    "SHOT",
+                    "THRUST"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "KINDS OF DIGITAL STORAGE",
+                "group_words": [
+                    "CARD",
+                    "CLOUD",
+                    "DISK",
+                    "DRIVE"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "UNITS OF VOLUME PLUS LETTER",
+                "group_words": [
+                    "BOUNCE",
+                    "GALLEON",
+                    "PINOT",
+                    "QUARTZ"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This relates to dining and how we set our tables."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about what you might use for a meal to eat and drink."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider the essentials required for enjoying a meal, including utensils and containers."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "It's about things that can go higher or be enhanced."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These words describe actions that can rise or improve."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These terms connote movement or elevation, often used in a metaphorical sense."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think about places where you save your digital information."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These are essential tools for storing data in modern technology."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They include both physical and virtual options for keeping files safe."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This relates to measurements, usually used in cooking or liquid capacity."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They include measurements and a reference to an alphabet character."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think of units associated with both volume in liquid and weight, mixed with a letter designation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-27",
+        "game_number": 691,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "CONSUMED",
+                "group_words": [
+                    "ATE",
+                    "HAD",
+                    "PUT AWAY",
+                    "TOOK IN"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "ALSO",
+                "group_words": [
+                    "AS WELL",
+                    "BESIDES",
+                    "TO BOOT",
+                    "TOO"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "ATM OPTIONS",
+                "group_words": [
+                    "BALANCE",
+                    "DEPOSIT",
+                    "TRANSFER",
+                    "WITHDRAWAL"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___PLAY",
+                "group_words": [
+                    "FORE",
+                    "HORSE",
+                    "SCREEN",
+                    "WORD"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This involves actions typically related to food."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You do this with your meals."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These phrases indicate what you do with something when you finish it."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This term is often used to add information."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of phrases that indicate agreement or addition."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These expressions often enhance statements or add another idea."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are related to handling money at machines."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider terms used in banking transactions."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These actions can occur at various points when you interact with an automated teller."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This can refer to various forms of entertainment or games."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of terms that can be combined with 'play' to describe certain activities."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words suggest types of games or scenarios you may encounter in leisure."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-28",
+        "game_number": 699,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "HURL",
+                "group_words": [
+                    "CHUCK",
+                    "PELT",
+                    "PITCH",
+                    "SLING"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "BE ON BOTH SIDES OF",
+                "group_words": [
+                    "BOOKEND",
+                    "BRACKET",
+                    "FLANK",
+                    "SURROUND"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "PARTS OF A CLASSIC GIRL SCOUT UNIFORM",
+                "group_words": [
+                    "BADGE",
+                    "BERET",
+                    "SASH",
+                    "SKIRT"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___ HALL",
+                "group_words": [
+                    "BINGO",
+                    "CITY",
+                    "MONTY",
+                    "STUDY"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These actions usually involve throwing or tossing something."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of activities often associated with fairs or outdoor games."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Common terms you would use when playing catch or in sports."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms relate to positioning, often used in architecture or layout."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They describe objects that serve to support or stabilize other objects."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words pertain to things that hold items in place, especially at ends."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are typically worn by members of a certain organization, especially young girls."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Items that represent accomplishments and identity in a group setting."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Elements that complete a getup for an organization focused on skills and outdoors."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase often refers to a location or facility."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It implies a place where activities or events happen, often for fun."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Complete the phrase often associated with games and gatherings."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-29",
+        "game_number": 689,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "MATERIALS ASSOCIATED WITH FANCY DINING",
+                "group_words": [
+                    "CHINA",
+                    "CRYSTAL",
+                    "LINEN",
+                    "SILVER"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "KINDS OF SHORTS",
+                "group_words": [
+                    "BERMUDA",
+                    "BIKE",
+                    "BOXER",
+                    "CARGO"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "NOUNS IN A FAMOUS PALINDROME",
+                "group_words": [
+                    "CANAL",
+                    "MAN",
+                    "PANAMA",
+                    "PLAN"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "MOVIES FROM 1985",
+                "group_words": [
+                    "BRAZIL",
+                    "CLUE",
+                    "COMMANDO",
+                    "WITNESS"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think about fine dining settings."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These items often enhance a formal table."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are usually elegant and can be used for special occasions."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are types of casual garments."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might wear them in warm weather."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Some of these are named after specific geographic locations."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group is related to a famous sentence that reads the same backward."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of a famous Central American country."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words are part of a phrase known for its unique structure."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These films were released during a notable year in the 1980s."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Consider both comedy and drama genres from this era."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "One of these movies is set in a dystopian future."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-30",
+        "game_number": 692,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "AVERAGE",
+                "group_words": [
+                    "MEAN",
+                    "NORM",
+                    "PAR",
+                    "STANDARD"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "PICTURED ON THE U.S. GREAT SEAL",
+                "group_words": [
+                    "ARROWS",
+                    "EAGLE",
+                    "OLIVE BRANCH",
+                    "SHIELD"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "PROPER NOUNS IN BROADWAY MUSICAL TITLES THAT ARE SPOKEN PHRASES",
+                "group_words": [
+                    "BIRDIE",
+                    "DOLLY",
+                    "KATE",
+                    "YANKEES"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "___MAN",
+                "group_words": [
+                    "BOGEY",
+                    "CRAFTS",
+                    "GENTLE",
+                    "SPOKES"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This term refers to what is common or typical."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about a statistical measurement indicating central tendency."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It's often contrasted with outliers in data analysis."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group is often associated with national symbols."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find these elements on a government emblem."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider the imagery found on the official emblem of a country, especially the one with a bird."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are names that often appear in famous musical titles."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of characters or names that are shouted during a performance."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They are proper nouns that represent prominent figures or terms in Broadway shows."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Complete the phrase: it's something-man."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This group relates to various roles or personas commonly associated with certain abilities."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Imagine a term that can describe a type of hero or individual with unique skills."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-03-31",
+        "game_number": 696,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "AFFECT",
+                "group_words": [
+                    "MOVE",
+                    "REACH",
+                    "SWAY",
+                    "TOUCH"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "YOU GOT IT!",
+                "group_words": [
+                    "BINGO",
+                    "CORRECT",
+                    "DING",
+                    "RIGHT"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "SLANG FOR MONEY",
+                "group_words": [
+                    "CHANGE",
+                    "GREEN",
+                    "PAPER",
+                    "SCRATCH"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "OBJECTS WITH THE PREFIX “MICRO-”",
+                "group_words": [
+                    "CHIP",
+                    "PHONE",
+                    "SCOPE",
+                    "WAVE"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These actions can be felt physically."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about how you can engage with something."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These verbs often describe movements toward something."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase suggests you've accomplished something."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It's often exclaimed when someone answers correctly."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words are related to validation and success."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms relate to currency or financial exchanges."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of popular slang related to having or acquiring wealth."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These words often symbolize cash in different contexts."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These items are typically small in scale."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They are often high-tech gadgets or tools."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "These objects have a common prefix indicating their size."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-04-01",
+        "game_number": 672,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "CURRENCY SYMBOLS",
+                "group_words": [
+                    "$",
+                    "€",
+                    "£",
+                    "¥"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "AND/TOGETHER WITH",
+                "group_words": [
+                    "&",
+                    "+",
+                    "N",
+                    "X"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "EMOTICON MOUTHS",
+                "group_words": [
+                    "(",
+                    ")",
+                    "O",
+                    "P"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "\"RIGHT\"",
+                "group_words": [
+                    "R",
+                    "→",
+                    "⊾",
+                    "✔"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These symbols are often seen in financial contexts."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They represent different forms of money from around the world."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You might know these signs if you've ever made a purchase."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This relates to joining or combining things."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It’s often used in mathematics and programming to combine elements."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You may see it in written forms like names or lists."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often found in expressions of feelings or reactions."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can convey emotions or indicate responses."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about how they visually represent different types of mouths."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This word can indicate correctness or direction."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It's often associated with agreement or approval."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The concept links to being on the right side or proper aspect."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-04-02",
+        "game_number": 695,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "ILK",
+                "group_words": [
+                    "KIND",
+                    "LIKE",
+                    "SORT",
+                    "TYPE"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "CAPRICE",
+                "group_words": [
+                    "FANCY",
+                    "IMPULSE",
+                    "LARK",
+                    "WHIM"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "WILLIAMSES",
+                "group_words": [
+                    "HANK",
+                    "ROBIN",
+                    "TENNESSEE",
+                    "VENUS"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "WORDS PRONOUNCED DIFFERENTLY AS PROPER NOUNS",
+                "group_words": [
+                    "HERB",
+                    "JOB",
+                    "NICE",
+                    "READING"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms relate to categories or classifications."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might use them to describe a group of people or things."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They often help in understanding relationships or similarities."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These words suggest spontaneity or a playful nature."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think of actions taken on a sudden impulse."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They often reflect a changeable or whimsical attitude."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These names are associated with notable individuals or characters."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They might remind you of famous figures in culture or history."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Each name has its own story or identity beyond the common usage."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These terms are commonly used in everyday language, but with a twist."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Some refer to mundane items but are also proper names."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Pay attention to how these words sound and their dual meanings."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-04-03",
+        "game_number": 697,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "PRINTED NOTIFICATION",
+                "group_words": [
+                    "ANNOUNCEMENT",
+                    "BULLETIN",
+                    "NOTICE",
+                    "POSTER"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "SEEN AT A GROCERY CHECKOUT COUNTER",
+                "group_words": [
+                    "CONVEYOR BELT",
+                    "REGISTER",
+                    "SCALE",
+                    "SCANNER"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "THINGS WITH TABS",
+                "group_words": [
+                    "BROWSER",
+                    "FOLDER",
+                    "KEYBOARD",
+                    "SODA CAN"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "PALM ___",
+                "group_words": [
+                    "BEACH",
+                    "READER",
+                    "SUNDAY",
+                    "TREE"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These can be displayed on walls or handed out."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They often share information about events or rules."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You would often see these in public places and they typically use bold text."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "It's where items move before being purchased."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This area is essential for checking out items."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "You may see devices here that first weigh your items."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These often help with organization in digital or physical spaces."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find these in a computer or at a party."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They can help you manage different categories of items."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This phrase could relate to a tropical location."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "It might also refer to a type of literature or event."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The first word is often associated with flora or a leisure spot."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-04-04",
+        "game_number": 694,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "WHAT’S LEFTOVER",
+                "group_words": [
+                    "BALANCE",
+                    "DIFFERENCE",
+                    "REMAINDER",
+                    "REST"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "BASEBALL VENUES",
+                "group_words": [
+                    "DIAMOND",
+                    "FIELD",
+                    "PARK",
+                    "STADIUM"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "CAR TRIP",
+                "group_words": [
+                    "CRUISE",
+                    "DRIVE",
+                    "RIDE",
+                    "SPIN"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "COMPANIES WITH “E” REMOVED",
+                "group_words": [
+                    "BAY",
+                    "HARMONY",
+                    "INK",
+                    "TRADE"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think about what remains after an event."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This often relates to what you don't consume or use."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "It's what you end up with when everything else is accounted for."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Think of places where games are played."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "These locations often have grass and bases."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They're essential for playing a popular bat-and-ball sport."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "Consider the journey taken on a road."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "This is often enjoyable when done with friends or family."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "The focus is on movement and travel over a distance."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are names of businesses without a particular vowel."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Each name sounds similar but is distinct once you notice the change."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "They represent different sectors, from commerce to creativity."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game_date": "2025-04-05",
+        "game_number": 693,
+        "game_author": "Wyna Liu",
+        "game_data": [
+            {
+                "data_level": 0,
+                "group_name": "EMPLOY",
+                "group_words": [
+                    "CONTRACT",
+                    "ENGAGE",
+                    "RETAIN",
+                    "SIGN"
+                ]
+            },
+            {
+                "data_level": 1,
+                "group_name": "PARTS OF A WEBSITE",
+                "group_words": [
+                    "BANNER",
+                    "HEADER",
+                    "MENU",
+                    "SIDEBAR"
+                ]
+            },
+            {
+                "data_level": 2,
+                "group_name": "MAGAZINES",
+                "group_words": [
+                    "BILLBOARD",
+                    "INTERVIEW",
+                    "STAR",
+                    "TIME"
+                ]
+            },
+            {
+                "data_level": 3,
+                "group_name": "ENDING WITH MEDIEVAL WEAPONS",
+                "group_words": [
+                    "CROSSWORD",
+                    "GRIMACE",
+                    "RAINBOW",
+                    "SEMBLANCE"
+                ]
+            }
+        ],
+        "hints": [
+            {
+                "data_level": 0,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "This group involves agreements and commitments."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "Think about how employers might secure people's services."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider the actions taken to ensure someone's continued association with a job."
+                    }
+                ]
+            },
+            {
+                "data_level": 1,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These elements are often found at the top of a page."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They help users navigate through a digital space."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about the different ways a website organizes its layout and features."
+                    }
+                ]
+            },
+            {
+                "data_level": 2,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These are often associated with storytelling and features."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "You might find them in print or online formats."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Consider the types of publications that offer insights or entertainment."
+                    }
+                ]
+            },
+            {
+                "data_level": 3,
+                "hints": [
+                    {
+                        "hintlevel": 1,
+                        "hint": "These have historical significance and are often associated with conflict."
+                    },
+                    {
+                        "hintlevel": 2,
+                        "hint": "They can be found in fantasy lore or discussions of ancient battles."
+                    },
+                    {
+                        "hintlevel": 3,
+                        "hint": "Think about these objects as tools used in warfare during the Middle Ages."
+                    }
+                ]
+            }
+        ]
     }
 ]

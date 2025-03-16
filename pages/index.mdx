@@ -5,10 +5,10 @@ date: 2024-06-30
 ---
 
 import HintsPage from '@components/nytconnectionshints/HintsPage'
-import { getLatestGameInfo } from '@lib/data';
+import { getCurrentDateGameInfo } from '@lib/data';
 
 export async function getStaticProps() {
-    const latestGameInfo = await getLatestGameInfo();
+    const latestGameInfo = await getCurrentDateGameInfo();
     return {
         props: {
             game_date: latestGameInfo.game_date,
@@ -17,9 +17,9 @@ export async function getStaticProps() {
             game_data: latestGameInfo.game_data,
             hints: latestGameInfo.hints,
             __nextra_dynamic_opts: {
-                title: `NYT Connections Hints Today - ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Clues & Answers`,
+                title: `NYT Connections Hints Today - ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} | Answers & Clues`,
                 frontMatter: {
-                    description: `NYT Connections hints today for ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}, including categorized clues and answers. Play with unlimited mode or check the NYT Connections archive for past puzzles. Unlike Mashable’s Connections hints, this page has a fixed URL, making it easy to access daily without searching.`
+                    description: `NYT Connections hints today and answers for ${new Date(latestGameInfo.game_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} - daily update. Enjoy intresting multi-level clues and help. Play Nyt Connections unlimited mode, and access all past NYT Connections archive. Make a bookmark to access daily updates easily.`
                 }
             }
         }

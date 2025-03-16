@@ -165,8 +165,8 @@ const HintsPage = ({
         {/* Page Overview */}
         <div className=" rounded-lg p-6 mb-8">
           <p className="text-zinc-900 text-base leading-relaxed">
-            Hi!😊 This page daily-updates for NYT Connections <a className='text-primary !underline underline-offset-2' href="#hints">hints</a>, <a className='text-primary !underline underline-offset-2' href="#answers">answers</a> and help with multi-level clues, enhances your game experience.
-            Besides, you can <a className='text-primary !underline underline-offset-2' href="#game">play nyt connections unlimited mode</a>, and access all historical <a className='text-primary !underline underline-offset-2' href="/archive">NYT Connections archive</a>.
+            Here's daily updates of NYT Connections <a className='text-primary !underline underline-offset-2' href="#hints">hints</a> and <a className='text-primary !underline underline-offset-2' href="#answers">answers</a>. Enjoy intresting multi-level clues and help, enhances your game experience.
+            Play <a className='text-primary !underline underline-offset-2' href="#game">nyt connections unlimited mode</a>, and access all past <a className='text-primary !underline underline-offset-2' href="/archive">NYT Connections archive</a>.
             Wish you have a good time playing NYT Connections today!
           </p>
         </div>

@@ -1,11 +1,12 @@
 
-export { getArchiveData, getLatestGameInfo, getGameInfoByNumber, loadAllGameInfo, type GameInfo };
+export { getArchiveData, getCurrentDateGameInfo, getGameInfoByDate, loadAllGameInfo, type GameInfo };
 
 import fs from 'fs';
 import path from 'path';
 import { createClient } from '@supabase/supabase-js';
-import { getArchiveUrlByDateAndNumber } from './utils';
-import {GroupHint,GroupData} from './types'
+import { getArchiveUrlByDate, getNextDate } from './utils';
+import { GroupHint, GroupData } from './types'
+import { format } from 'date-fns'
 
 const SUPABASE_URL = process.env.SUPABASE_URL
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -18,38 +19,41 @@ interface GameInfo {
     hints: GroupHint[];
 }
 
-async function loadAllGameInfo(): Promise<{ [key: number]: GameInfo }> {
+async function loadAllGameInfo(): Promise<{ [key: string]: GameInfo }> {
     console.log('Loading game info from file and database');
-    const archiveData: { [key: number]: GameInfo } = {}
+    const archiveData: { [key: string]: GameInfo } = {}
     const archiveDataFromFile = await loadGameInfoFromFile();
-    const max_number = Math.max(...Object.keys(archiveDataFromFile).map(key => parseInt(key)))
-    const archiveDataFromDB = await loadGameInfoFromDB(max_number + 1);
+    //console.log(`Loaded game info from file: ${JSON.stringify(archiveDataFromFile)}`);
+    const max_date = Object.keys(archiveDataFromFile).sort((a, b) => b.localeCompare(a))[0];
+    //console.log(`max_date: ${max_date}`);
+    const start_date = format(getNextDate(new Date(max_date)), 'yyyy-MM-dd');
+    const archiveDataFromDB = await loadGameInfoFromDB(start_date);
     Object.assign(archiveData, archiveDataFromFile, archiveDataFromDB);
     return archiveData;
 }
 
-function loadGameInfoFromFile(): { [key: number]: GameInfo } {
-    const archiveData: { [key: number]: GameInfo } = {}
+function loadGameInfoFromFile(): { [key: string]: GameInfo } {
+    const archiveData: { [key: string]: GameInfo } = {}
     // 只在模块加载时读取一次 JSON 文件
     const filePath = path.join(process.cwd(), 'archive.json');
     console.log(`Loading game info from file: ${filePath}`);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const gameInfos = JSON.parse(fileContent);
     for (const gameInfo of gameInfos) {
-        archiveData[`${gameInfo.game_number}`] = gameInfo;
+        archiveData[`${gameInfo.game_date}`] = gameInfo;
     }
     // console.log(`Loaded game infos from file: ${JSON.stringify(archiveData)}`);
     return archiveData;
 }
 
-async function loadGameInfoFromDB(start_number: number): Promise<{ [key: number]: GameInfo }> {
-    console.log(`Loading game info from database, start_number: ${start_number}`);
+async function loadGameInfoFromDB(start_date: string): Promise<{ [key: string]: GameInfo }> {
+    console.log(`Loading game info from database, start_date: ${start_date}`);
     const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-    const archiveData: { [key: number]: GameInfo } = {}
+    const archiveData: { [key: string]: GameInfo } = {}
     const { data, error } = await supabase
         .from('nyt_connections_data')
         .select("*")
-        .gte('game_number', start_number)
+        .gte('game_date', start_date)
 
     if (error) {
         console.error('Failed to fetch game record from spabase', error);
@@ -64,9 +68,9 @@ async function loadGameInfoFromDB(start_number: number): Promise<{ [key: number]
             game_data: JSON.parse(record.game_data),
             hints: JSON.parse(record.hints),
         }
-        archiveData[`${gameInfo.game_number}`] = gameInfo;
+        archiveData[`${gameInfo.game_date}`] = gameInfo;
     }
-    console.log(`Loaded game infos from database: ${JSON.stringify(archiveData)}`);
+    //console.log(`Loaded game infos from database: ${JSON.stringify(archiveData)}`);
     return archiveData;
 }
 
@@ -76,11 +80,11 @@ async function getArchiveData(): Promise<{ year: number, months: { month: number
     const archiveData = await loadAllGameInfo();
     Object.values(archiveData).forEach(gameInfo => {
         const gameDate = new Date(gameInfo.game_date);
-        const year = new Date(gameDate).getFullYear();
+        const year = gameDate.getFullYear();
         // 这里的月份是从 0 开始的，所以要加 1
-        const month = new Date(gameDate).getMonth() + 1;
-        const day = new Date(gameDate).getDate();
-        const url = getArchiveUrlByDateAndNumber(new Date(gameDate), gameInfo.game_number);
+        const month = gameDate.getMonth() + 1;
+        const day = gameDate.getDate();
+        const url = getArchiveUrlByDate(gameDate);
         let yearIndex = years.findIndex(yearData => yearData.year === year);
         if (yearIndex === -1) {
             yearIndex = years.push({ year, months: [] }) - 1;
@@ -97,51 +101,73 @@ async function getArchiveData(): Promise<{ year: number, months: { month: number
     return years;
 }
 
-// 获取最新一条数据
-async function getLatestGameInfo(): Promise<GameInfo> {
-    console.log(`Loading lates game info from database...`);
+// 获取当前日期的游戏数据
+async function getCurrentDateGameInfo(): Promise<GameInfo> {
+    console.log(`Loading current date game info from database...`);
     const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-    const { data, error } = await supabase
-        .from('nyt_connections_data')
+    const { data: curDate_data, error: curDate_error } = await supabase
+        .from('nyt_connections_current_date')
         .select("*")
-        .order('game_number', { ascending: false })
+        .order('current_date', { ascending: false })
         .limit(1)
 
-    if (data && data.length > 0) {
-        return {
-            game_date: data[0].game_date,
-            game_number: data[0].game_number,
-            game_author: data[0].game_author,
-            game_data: JSON.parse(data[0].game_data),
-            hints: JSON.parse(data[0].hints)
-        }
-    } else {
-        console.error('Failed to fetch game record from spabase, or no data found, loadding from file', error);
-        const archiveDataFromFile = await loadGameInfoFromFile();
-        const max_number = Math.max(...Object.keys(archiveDataFromFile).map(key => parseInt(key)))
-        return archiveDataFromFile[`${max_number}`];
+    let currentDate = new Date();
+    if (curDate_data && curDate_data.length > 0) {
+        currentDate = new Date(curDate_data[0].current_date);
     }
+    console.log(`get current date game info, currentDate: ${currentDate}`);
+
+    // 根据currentDate获取游戏信息
+    const gameInfoForCurrentDate = await getGameInfoByDate(currentDate);
+    if (gameInfoForCurrentDate) {
+        return gameInfoForCurrentDate;
+    }
+
+    // 如果没查到指定日期的数据，则返回最新一条数据
+    console.log(`currentDate: ${currentDate} not found in database and file, Loading lastest game info from database...`);
+    const { data: data_latest, error: error_latest } = await supabase
+        .from('nyt_connections_data')
+        .select("*")
+        .order('game_date', { ascending: false })
+        .limit(1)
+
+    if (data_latest && data_latest.length > 0) {
+        console.log(`Loaded lastest game info from database`);
+        return {
+            game_date: data_latest[0].game_date,
+            game_number: data_latest[0].game_number,
+            game_author: data_latest[0].game_author,
+            game_data: JSON.parse(data_latest[0].game_data),
+            hints: JSON.parse(data_latest[0].hints)
+        }
+    }
+
+    console.error('Load latest game info from database failed, loading latest game info from file...');
+    const archiveDataFromFile = await loadGameInfoFromFile();
+    const max_number = Math.max(...Object.keys(archiveDataFromFile).map(key => parseInt(key)))
+    return archiveDataFromFile[`${max_number}`];
 }
 
 // 获取指定游戏的详细信息
-async function getGameInfoByNumber(game_number: number): Promise<GameInfo> {
+async function getGameInfoByDate(game_date: Date): Promise<GameInfo> {
     // 先从文件中获取数据
-    console.log(`Loading game info from file for game_number: ${game_number}`);
     const archiveDataFromFile = await loadGameInfoFromFile();
-    if (archiveDataFromFile[`${game_number}`]) {
-        console.log(`Loaded game info from file for game_number: ${game_number}`);
-        return archiveDataFromFile[`${game_number}`];
+    const game_date_str = format(game_date, 'yyyy-MM-dd');
+    if (archiveDataFromFile[`${game_date_str}`]) {
+        console.log(`Loaded game info from file for date: ${game_date_str}`);
+        return archiveDataFromFile[`${game_date_str}`];
     }
     // 再从数据库中获取数据
-    console.log(`game_number: ${game_number} not found in file, Load from database...`);
+    console.log(`game info for date: ${game_date_str} not found in file, Loading from database...`);
     const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
     const { data, error } = await supabase
         .from('nyt_connections_data')
         .select("*")
-        .eq('game_number', game_number)
+        .eq('game_date', game_date_str)
+        .limit(1)
 
     if (data && data.length > 0) {
-        console.log(`Loaded game info from database for game_number: ${game_number}`);
+        console.log(`Loaded game info from database for date: ${game_date_str}`);
         return {
             game_date: data[0].game_date,
             game_number: data[0].game_number,
@@ -149,10 +175,9 @@ async function getGameInfoByNumber(game_number: number): Promise<GameInfo> {
             game_data: JSON.parse(data[0].game_data),
             hints: JSON.parse(data[0].hints)
         }
-    } else {
-        console.error('Failed to fetch game record from spabase, or no data found, loadding from file', error);
-        return null;
     }
+    console.error(`Failed to load game info for date: ${game_date_str}, error: ${error}`);
+    return null;
 }
 
 
